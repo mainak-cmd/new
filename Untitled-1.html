@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Form</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <label for="dropdown">Select an option:</label>
+    <select id="dropdown" name="option">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <br><br>
+    <label>
+      <input type="checkbox" name="checkbox" value="checked">
+      Check this box
+    </label>
+    <br><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
